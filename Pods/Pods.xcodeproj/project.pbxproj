@@ -1,0 +1,1656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0250985701853839816196F3 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4061EE8ECCD460CEB1E336AB /* MJRefreshComponent.h */; };
+		0316752D09C341E9718DD062 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = B388219062DFCFC9007F87B9 /* UIImage+GIF.h */; };
+		03B51FA39B77B2CB3623BE99 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E32150BDCAC55EFEEE36F81 /* UIKit+AFNetworking.h */; };
+		0531234AFB7D8CE9536E66BD /* MJRefreshLegendFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72224BD9D0FE45462DD70711 /* MJRefreshLegendFooter.m */; };
+		082C4B5BA91338BF3A780470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		09112DD6BAED24B1A6A77EFA /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 788CB883EF82C9FC478F2859 /* FMDatabaseQueue.h */; };
+		0958EA2A0580244F58D3F2A6 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E714B22B24C4AD9ADE164 /* UIView+MJExtension.m */; };
+		09A315B1D048DA2EC282C4A9 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = B69B20A360691CD7B59A5CCF /* SDWebImageDownloader.h */; };
+		0B64A63968C53E1AE7A2A833 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = DB58708D29478CDC2B04F878 /* IQNSArray+Sort.h */; };
+		0CEABA52F0323CE592E288D1 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4F4A4391AD847F48842EF8 /* UIView+WebCacheOperation.h */; };
+		0FE3EF7C5F4C0939D0BCCBEE /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5788CF28F880967C32035C /* SDWebImageCompat.h */; };
+		1211486C9A51311CB618A1C5 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E6A138F0FD51B7D0D6445 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		12431D08F304A2CE9F923CAF /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D9E67E16D9D801743A3BA4 /* SDWebImageOperation.h */; };
+		13AA15597FBC7FE4A694576E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3F017E9588CF259838644 /* UIProgressView+AFNetworking.m */; };
+		14EC29294E33DCCDC537D4BA /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D13F506AC14CA677664025F0 /* IQBarButtonItem.h */; };
+		174D49E73D0528ACA2532402 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF254FAB7AAF696D6AD01A2 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18FFFDCD61C5E99CEABE4CD6 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AF18DDFCE81BFAEDA9EB0B5F /* AFURLRequestSerialization.h */; };
+		20C254BE01E742DEE06019EA /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D343DE8D0CABE70304ABE2 /* UIImageView+WebCache.h */; };
+		220E14FEB3EABDDDCDA6B217 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145A55C00A7D7C82BBC342E /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		224A2E9D0D0C30A5957E0E16 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C8C6DEF10906356533526C /* UIScrollView+MJExtension.m */; };
+		22FF50D91D51291108D49DD6 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E78A95D6593AC949B7C48 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		241A9B348F8A7C92D8AE3795 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A929650EB39C66F80D3F2268 /* MJRefreshFooter.m */; };
+		24204BBD099160D7E0483B1F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFEBFA6A9CE96DA140BB8C /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28268463691ED2C57E1C380F /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C8AB0C4FC02232F1EC8CF2 /* FMDatabaseAdditions.h */; };
+		2A2C8EDB86160B3F36E5F50A /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F3517A624AE1D23B95192954 /* UIButton+WebCache.h */; };
+		2D32C8E15CCFD246C3A0B407 /* KeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C100C68C00A5B48CC3D8F5B /* KeyboardManager.h */; };
+		2E706AB0A4698D35BE509B92 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D994E00AC491AB800DC355F /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33A03D9A8681CAF33AB7C942 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9845560CF88E31F06D91F0A0 /* UIImageView+HighlightedWebCache.h */; };
+		33B1F67790F98E7B4A233611 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CB859BF910DB2C6057C336 /* AFHTTPRequestOperationManager.h */; };
+		3586832709B74D9D5BB16207 /* Pods-SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDDEC420A72482DCF34847D /* Pods-SDWebImage-dummy.m */; };
+		37AF74E6E7007B53349FA143 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDBDF842371D3E4B164D512 /* IQToolbar.h */; };
+		38BD8282F3C561BB1FC72B36 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E18D5DA953372AF6BEA010A /* AFHTTPRequestOperation.h */; };
+		3A94520939C57591DA3CEB5D /* Pods-IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6953117E7E9AA1E27CBCFFF /* Pods-IQKeyboardManager-dummy.m */; };
+		3B18B97F06E43D1F37CB0A4D /* MJRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5256DCCC29E52BCCBAECDD /* MJRefreshGifFooter.m */; };
+		3CBD4430A7718F1D9A4583EC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8D01D5150D7D9F2691D67 /* MobileCoreServices.framework */; };
+		3FFFD40AACC2731B30DC1034 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B196B06F30DFAD592C31630 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41889939DD474AA781D03B2C /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E65F0DFCED212FC7C06FC0F /* UIRefreshControl+AFNetworking.h */; };
+		44C4B27121A5C6B2BB2A1876 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F8AA17FDAC7559175BD393 /* MJRefreshFooter.h */; };
+		455B9CC74ACCF7E18CC0A030 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A2EF43DA5230A9477BE3F3 /* UIActivityIndicatorView+AFNetworking.h */; };
+		460A00FF522D461ACF87BD07 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F4B45FBEAA7400D1063D85 /* AFNetworkReachabilityManager.h */; };
+		477DB6D477D514C756631539 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F5D4A2F01C935340309CB /* Security.framework */; };
+		480D8684B6E6A4DC625DCAD7 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 324691E1D8DDB0203C978FCA /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4817C0453F146713E0D039DB /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71CC7651D0EEFA04413052 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49783102D9DA9F5FAD51CCD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		4B79C4021E73E9BA8428F140 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C052E32AB0614A31D243122 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D4E8B64EF00003E90F9D510 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = F627F24296F5394396F702E5 /* IQSegmentedNextPrevious.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E24A9443F71586EDA686ACB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 594C15074DA78BC2C070BCD7 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E3C69D5C3506A923D05AC97 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFBFD5BEEEE9F4A7195F290 /* AFSecurityPolicy.h */; };
+		4F9057DC132F1E596384969B /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE016F8D6D52194009B71 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		513C768B54CC451BBD5F5FB7 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 398954CC5571AE6A6C9E8459 /* IQUIView+Hierarchy.h */; };
+		51ABC9661BF9455A3299AEFB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224AAD9A368D7ED4A8302F1 /* Pods-dummy.m */; };
+		524F467E86C4071E2A1A58D8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A994E462CC9F07735E0FF2F5 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		537C91F181253A1FA870F2ED /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0636A4F58F9D271A1EFFFEAD /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54FCBA3F125A3ADF98565FD9 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C357868579F14C76A5A40699 /* SDWebImageDownloaderOperation.h */; };
+		5CBAE14CD5B202B077340C36 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA543D2893C74B293E2FC98 /* UIScrollView+MJExtension.h */; };
+		5F0010D95636921B45F53B55 /* Pods-JSONKit-NoWarning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 987B0F2816F426EFBD5086B3 /* Pods-JSONKit-NoWarning-dummy.m */; };
+		635B684624360D1603C74372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		6460069070A5339BE12D058F /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D3C92BB8697920CD53C24D /* AFURLConnectionOperation.h */; };
+		64DB5F45301352A163ACEB0F /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AA150F5A2798FFF2FE1A97 /* IQUIWindow+Hierarchy.h */; };
+		65F220119EB6581A033B4D79 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C82E3C0753293B11009F12BB /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		669DCEF259DF34E3D19255FB /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3447A8C870C5850E4F123B /* MJRefreshHeader.h */; };
+		6D868F72CD7CBD4BD8827A06 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F6F9F5CBBB8801C6D59934 /* IQKeyboardManagerConstants.h */; };
+		6E683D329D3AA256C0E154EE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6E20A3FEEC88D857A4EBDF /* AFURLResponseSerialization.h */; };
+		6F405D99F8DA50AE11533832 /* MJRefreshLegendHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 124E1569E0FAB1DACFADCFAE /* MJRefreshLegendHeader.h */; };
+		70802FD9DFCB723DB5834785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		716B62FA23C9746567A3C5D1 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E105B086B290807452FEE07 /* UIButton+AFNetworking.h */; };
+		71B840951FA92EADCBE4588C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD0907854BD9A8F624836F /* AFURLRequestSerialization.m */; };
+		77EE5463F5A9A422CBB09852 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDBB9493BE889CC254340F /* MJRefreshConst.m */; };
+		7A48F36D1723B30AA077E419 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4DDB7780B2C62BE2657D8E /* IQTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7AD56D5F3235B6C4E42B7C40 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57EF56DF2913EC5AF28F52 /* ImageIO.framework */; };
+		821396140673DFBC205E22DB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB98DAB0CEEDEB480EB3B1E /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8374F05189E1DFE1396B85CE /* Pods-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24438C1684348257E273347 /* Pods-AFNetworking-dummy.m */; };
+		84091B15D5CD98EB52DFA2BC /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06147FCBF0D6C1E8CF1B4548 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8414085B0169E918DD045E85 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 734E391154B12409CC1495FE /* AFNetworkActivityIndicatorManager.m */; };
+		857D9421FB5B0EDDAB19E199 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABD37C1B1B889CC04B44B2 /* UIButton+AFNetworking.m */; };
+		86BECBD46FFF4FF47B31F063 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C583675D9282723A23D5911F /* AFHTTPSessionManager.m */; };
+		8816F6C1401E88E0B87977BC /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF239FED4534980A4BD02BD /* AFNetworking.h */; };
+		8890BF16CA3648C546A54650 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F5748DC45E208E512E2ED6 /* AFURLSessionManager.m */; };
+		8A531089F9950898AF5972E1 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E1C9EDE6F2AFE3E0A4CE2 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E1E0A5EED15EDAF0E56AAEF /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F98A1C049691BB5BF87210 /* AFURLSessionManager.h */; };
+		8F1E342B3FB413688E5B6650 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DF3E6491293C3968C1FCCA /* UIScrollView+MJRefresh.h */; };
+		8FAFAB1124B38ED946E680D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AC6A5B0CB9DB8D2CE19EDF /* CoreGraphics.framework */; };
+		8FC2799262EA865902F1D3AE /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E05BE77BE6CB105405B7AF7 /* UIWebView+AFNetworking.h */; };
+		9132664612A11EC6BF5619BC /* Pods-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F752FD2F13B52DA3501E2956 /* Pods-FMDB-dummy.m */; };
+		93338A65C2DA2518C4C67B89 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8C6B7CA2B5A78227C8F14 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		947A37E0BA4577A699733622 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E383D6BCEBAB1C376AC2ED8 /* MJRefreshHeader.m */; };
+		94F8D95E0D6CFA266DFD76D2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C65AA1E11F7CB8B888FED9 /* AFNetworkReachabilityManager.m */; };
+		95B0E39D18AAF03C0399B6C1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9B69503F52AFA733FC5933 /* FMDatabasePool.h */; };
+		95CA12C18D0E24040614E49E /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = BF135A88CBA35BD31D317FDE /* FMDB.h */; };
+		982D5F8AAFB8FEE222311CC7 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6FA53511D5327E486C71FE /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99D1ABCCD2E75C3E9FCC9282 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE5E1260D9801B6FD8A44A /* AFURLResponseSerialization.m */; };
+		99EE466E74A2F46B27DBB014 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AAF4BC5F0DA56B7B975825 /* SDImageCache.h */; };
+		9CFCCB5E1AF21F98ACBE355A /* MJRefreshGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE86509EEB6DFA2995E9C819 /* MJRefreshGifFooter.h */; };
+		9DF3642A1F9A891B918D48A4 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D041C4A40267F04B2B6E06 /* UIImage+MultiFormat.h */; };
+		9E09A37069F028326B986B94 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DABCCFEC1E387EABB4BA14D2 /* SDWebImageManager.h */; };
+		9E12C3A793AABC0BE45CAF68 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EC41C17E4E5E7E00A3178F /* IQTextView.h */; };
+		A36E271B1890EC772B3F5D38 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DBA072AFCB06905627F5F9 /* UIAlertView+AFNetworking.m */; };
+		A8F2C33467AF358837E3762A /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF8E43F42435C5A4CE0A3C /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A97A296F070F8E7E4D8A6BA0 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9494BC983B999DF7F7248D /* IQTitleBarButtonItem.h */; };
+		A9EDC986C7023564249DF1BE /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4E48E4550C5F4A2387D620 /* UIAlertView+AFNetworking.h */; };
+		AB378B8544237FFBFC9E94E2 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B07079C7B6EF339BD62ADDA7 /* UIProgressView+AFNetworking.h */; };
+		AD09778C8EEC95FA6E9AC841 /* Pods-MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A6A3E5883FDFC1EE72C1 /* Pods-MJRefresh-dummy.m */; };
+		AD387E93A4F533994AFDB3CE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 316E0D18A3FC6CAA559F5A80 /* AFHTTPSessionManager.h */; };
+		B059EC3A0C66EFAD0767C562 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A5C4221FB3EF1E3492009 /* AFHTTPRequestOperation.m */; };
+		B34C65B35E2F5BCD4F5368D9 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA86322450F1EAC6B57286 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B39D80C8C51BE83030C67177 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 524B711F81801F2411B808BE /* IQKeyboardManager.h */; };
+		B489C1024BCD7EF95328366C /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 903A520BA03C9466727C8C10 /* MJRefreshConst.h */; };
+		B8040B227FFAF033D6861D66 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9D207DE7D59FB6D026E259 /* IQKeyboardReturnKeyHandler.h */; };
+		BA23F6F98505FB6D62092989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		BAE25CD843CD2A0D585E2E09 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 263072B89344EA0FD14537F0 /* UIWebView+AFNetworking.m */; };
+		BC37868D8EA79C5365F5D220 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D355507C519FC6073F8E4EC9 /* AFHTTPRequestOperationManager.m */; };
+		BDD889EACB1290AD104F47E3 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD1E2907EBA7FD0C91FE6A /* MJRefreshGifHeader.m */; };
+		BE69EEB947F734D632977FE8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2A0FCC8818ACA3C6304D0 /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEF5AA94F576166210C38B0C /* MJRefreshLegendHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BFAA84CDDD7580259CC472 /* MJRefreshLegendHeader.m */; };
+		BFDEEECBFEE51AD05F8CC295 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 675177CCD03F7FCB0F212370 /* UIImageView+AFNetworking.h */; };
+		C13B365DEF1A4014C937EA5D /* MJRefreshLegendFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D6D9A5CF2E8983A0C09DA8 /* MJRefreshLegendFooter.h */; };
+		C2FE0F257310771827785DEB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA63E56A09E8E1E65222FEB /* UIRefreshControl+AFNetworking.m */; };
+		C7B975FCEFED32AD75D9EC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		C8F74DE93EF6B16C0316C4F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A650FB0F9C48CB399367A067 /* SystemConfiguration.framework */; };
+		CC513EC0DBEA6EBF32B027EA /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F308E0EDFE3B0CED7413041B /* UIScrollView+MJRefresh.m */; };
+		CD66A089E3F2CB2DB6BD99F1 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B01E1B4A0230A7B330C50FD /* MJRefreshComponent.m */; };
+		CDF27F5E10EE81C488A88DCB /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7316130A907EBF94521FEB65 /* FMResultSet.h */; };
+		D0362B1EF1DDB1E85C344A48 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C983788EF98E6634F5841 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D126B9000D50ADFB3F5F4EFB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198188D8E6E6A065879EDD0 /* AFURLConnectionOperation.m */; };
+		D2669828409A18D6C89A462C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DBF60D0944D0C8CE7EF97F /* AFSecurityPolicy.m */; };
+		D3892959F25F4CE80B07676A /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C27708B15C9E6B12BCE618D /* JSONKit.h */; };
+		D3DE1325126A2B33E3963736 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E874D97BFE03D2E4324930 /* FMDatabase.h */; };
+		DAAFC7F746D565C67F7750D1 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A17FD11D610FD553AA79F99 /* MJRefreshGifHeader.h */; };
+		DADAEED0543CF262780D740D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACF05947965D4A8ABC1E865 /* UIImageView+AFNetworking.m */; };
+		DB4D8BA51A12F4B1562AA1B2 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FED0EE5089DC0A0911F29 /* UIActivityIndicatorView+AFNetworking.m */; };
+		DF563541556939B323190972 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EC877B7FA18129226A08A6 /* AFNetworkActivityIndicatorManager.h */; };
+		E1FFF0A3398F30EB8E38B8F9 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 455635C150C05076563B1678 /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E44335019E1A664DAA05B1C5 /* IQSegmentedNextPrevious.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4157F68E211F92F52FFBB2 /* IQSegmentedNextPrevious.h */; };
+		E458518FEDD69D428E4ED452 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BAAEADDFC39F88A6EC93F46 /* UIView+MJExtension.h */; };
+		E6D7D33008B5127FD83F8A1D /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CC913DD9A7B7E6C79FA922AD /* SDWebImagePrefetcher.h */; };
+		E76107EA1C2A60266C14F0C3 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A98CDF9D27D1D589A6CCFD56 /* SDWebImageDecoder.h */; };
+		E792119BBF61FE4F90A34DB7 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2EFFD8CAE7EFC975A2757 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9E6BB1C20F9CD3BF376F05A /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9CAC3557EAB9BBA89826E /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EDAC032F20A5C927E5C4C043 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15318DF1BAC2734203C15ED5 /* IQKeyboardManagerConstantsInternal.h */; };
+		F273FD8F5EED64E5A48DE7AD /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 145197C2D5470846C64AFBF2 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F319E6B13F67BFA337F41B67 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54581176B42BEAF77F04FC43 /* MJRefresh.h */; };
+		F443D4807AB1A7F71D56D438 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C4C2B7B6E05468C1B19F5F /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5A01A3944E6AF1B36D2370F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785507A0EEC44409C467F39 /* Foundation.framework */; };
+		F840B26F0D9007DF033D7C55 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C508B9854E9A2753DBBE6B7 /* NSData+ImageContentType.h */; };
+		FC3565578BEDD8B7DFB91475 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA0FA60F783201EC0C436F0 /* IQUIView+IQKeyboardToolbar.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2690EDB1E590C7CAB18C91A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB291F8D661586A51677F1D;
+			remoteInfo = "Pods-JSONKit-NoWarning";
+		};
+		33644C51C953694A4E69D364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF72647FD52A9385A6065CA;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		C4E05FCB5C9AD07E83D54DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572AEFA38668FB7A86540644;
+			remoteInfo = "Pods-FMDB";
+		};
+		F14D8E3608012E3ECFCF99C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482E1C3AFB19C322EFBC9ECB;
+			remoteInfo = "Pods-IQKeyboardManager";
+		};
+		F1956A74B4ED768D197F7E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8621EA603DA43EDF7919DC9B;
+			remoteInfo = "Pods-SDWebImage";
+		};
+		FB34C2D88CD6EFFD93D59E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1E695B570E7231F2906377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DC7E75EF596FE7DD6AB166;
+			remoteInfo = "Pods-MJRefresh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EC877B7FA18129226A08A6 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		06147FCBF0D6C1E8CF1B4548 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		0636A4F58F9D271A1EFFFEAD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0785507A0EEC44409C467F39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A4157F68E211F92F52FFBB2 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQSegmentedNextPrevious.h; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		0A9B69503F52AFA733FC5933 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		0B196B06F30DFAD592C31630 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		0C27708B15C9E6B12BCE618D /* JSONKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0D4DDB7780B2C62BE2657D8E /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyBoardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		0E32150BDCAC55EFEEE36F81 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		0FF254FAB7AAF696D6AD01A2 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		10FB4A8DB4527CC199F81655 /* Pods-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		124E1569E0FAB1DACFADCFAE /* MJRefreshLegendHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.h; sourceTree = "<group>"; };
+		145197C2D5470846C64AFBF2 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		15318DF1BAC2734203C15ED5 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		16B2A0FCC8818ACA3C6304D0 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		195C983788EF98E6634F5841 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1D446E15E18E0EF1F5F5748D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		1D57EF56DF2913EC5AF28F52 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		1E0E6A138F0FD51B7D0D6445 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		1F90205011790354B251D956 /* Pods-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB.xcconfig"; sourceTree = "<group>"; };
+		1F9D207DE7D59FB6D026E259 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		2198188D8E6E6A065879EDD0 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		21C4C2B7B6E05468C1B19F5F /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		21DBA072AFCB06905627F5F9 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		220CD52D3AAE21BE3E918BC3 /* Pods-IQKeyboardManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IQKeyboardManager-Private.xcconfig"; sourceTree = "<group>"; };
+		25A2EF43DA5230A9477BE3F3 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		263072B89344EA0FD14537F0 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		27D66CBA15B146F6CFE93773 /* Pods-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		2AFE5E1260D9801B6FD8A44A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2B4E48E4550C5F4A2387D620 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		2B7A5C4221FB3EF1E3492009 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		2DB98DAB0CEEDEB480EB3B1E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2E105B086B290807452FEE07 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		2EFD0907854BD9A8F624836F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		316E0D18A3FC6CAA559F5A80 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		31AA150F5A2798FFF2FE1A97 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		3224AAD9A368D7ED4A8302F1 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		324691E1D8DDB0203C978FCA /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		32ABD37C1B1B889CC04B44B2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		36E874D97BFE03D2E4324930 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		38052A26AAB2D1EC38653D3D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		38D9E67E16D9D801743A3BA4 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		398954CC5571AE6A6C9E8459 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		3A17FD11D610FD553AA79F99 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		3FCCC5C7FBC883C6F1E1A5F1 /* libPods-IQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQKeyboardManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4061EE8ECCD460CEB1E336AB /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.h; sourceTree = "<group>"; };
+		409E78A95D6593AC949B7C48 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		420F5D4A2F01C935340309CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		4271A6A3E5883FDFC1EE72C1 /* Pods-MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		455635C150C05076563B1678 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		47AC6A5B0CB9DB8D2CE19EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4D994E00AC491AB800DC355F /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		4E18D5DA953372AF6BEA010A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4F0FED0EE5089DC0A0911F29 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		524B711F81801F2411B808BE /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyBoardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		54581176B42BEAF77F04FC43 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		54D3C92BB8697920CD53C24D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		594C15074DA78BC2C070BCD7 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		5CCA4685B051612D450B7BCD /* Pods-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMDB-prefix.pch"; sourceTree = "<group>"; };
+		5E05BE77BE6CB105405B7AF7 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		5E5788CF28F880967C32035C /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		5EA9CAC3557EAB9BBA89826E /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		5FB44A8B7B13DDA45B4D0379 /* Pods-IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		60093E42D28F8EFB15D0FF88 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		6145A55C00A7D7C82BBC342E /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		62C8AB0C4FC02232F1EC8CF2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		63CB859BF910DB2C6057C336 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		64F98A1C049691BB5BF87210 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		675177CCD03F7FCB0F212370 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		67EC41C17E4E5E7E00A3178F /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyBoardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		680E1C9EDE6F2AFE3E0A4CE2 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyBoardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		6A3447A8C870C5850E4F123B /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.h; sourceTree = "<group>"; };
+		6AFFEBFA6A9CE96DA140BB8C /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		6BAAEADDFC39F88A6EC93F46 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		6C100C68C00A5B48CC3D8F5B /* KeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardManager.h; path = IQKeyBoardManager/KeyboardManager.h; sourceTree = "<group>"; };
+		6C508B9854E9A2753DBBE6B7 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		6E4CE016F8D6D52194009B71 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		705E0377584E4329062C8D29 /* Pods-SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDWebImage.xcconfig"; sourceTree = "<group>"; };
+		71AAF4BC5F0DA56B7B975825 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		72224BD9D0FE45462DD70711 /* MJRefreshLegendFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.m; sourceTree = "<group>"; };
+		7316130A907EBF94521FEB65 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		734E391154B12409CC1495FE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		788CB883EF82C9FC478F2859 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7AF239FED4534980A4BD02BD /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7C052E32AB0614A31D243122 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		7C7F17F29EDB6D0F4CB465A4 /* Pods-IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IQKeyboardManager.xcconfig"; sourceTree = "<group>"; };
+		7CCDBB9493BE889CC254340F /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		7DF7BF1BB938436E6770ED96 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		7E383D6BCEBAB1C376AC2ED8 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.m; sourceTree = "<group>"; };
+		80F9C93BC2034CF2E43EC6D6 /* Pods-FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		82AF5093AA04318D1D9F5AEC /* Pods-MJRefresh-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefresh-Private.xcconfig"; sourceTree = "<group>"; };
+		84A8D01D5150D7D9F2691D67 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		8A9494BC983B999DF7F7248D /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		8ACF05947965D4A8ABC1E865 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		8BD2EFFD8CAE7EFC975A2757 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyBoardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		8BDBDF842371D3E4B164D512 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyBoardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		8CFBFD5BEEEE9F4A7195F290 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8E65F0DFCED212FC7C06FC0F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		903A520BA03C9466727C8C10 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		97F2EAB689E50F264674AF3F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9845560CF88E31F06D91F0A0 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		987B0F2816F426EFBD5086B3 /* Pods-JSONKit-NoWarning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONKit-NoWarning-dummy.m"; sourceTree = "<group>"; };
+		98D6D9A5CF2E8983A0C09DA8 /* MJRefreshLegendFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.h; sourceTree = "<group>"; };
+		9AA543D2893C74B293E2FC98 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		9B01E1B4A0230A7B330C50FD /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.m; sourceTree = "<group>"; };
+		9EBF8E43F42435C5A4CE0A3C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		A1DBF60D0944D0C8CE7EF97F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A623C8CB40AC86602914614B /* Pods-MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		A650FB0F9C48CB399367A067 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A6F8AA17FDAC7559175BD393 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.h; sourceTree = "<group>"; };
+		A929650EB39C66F80D3F2268 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.m; sourceTree = "<group>"; };
+		A974B2356316A6D07E13B223 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98CDF9D27D1D589A6CCFD56 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		A994E462CC9F07735E0FF2F5 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		A9F6F9F5CBBB8801C6D59934 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		AB62F66258F5F1B1D027E0AC /* Pods-SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
+		AC752B81FAC0C2B482956032 /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE08C74A5E91351CEA9CAFB4 /* Pods-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		AEFB84DCCFA18641A7807E49 /* Pods-MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJRefresh.xcconfig"; sourceTree = "<group>"; };
+		AF18DDFCE81BFAEDA9EB0B5F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AFDDEC420A72482DCF34847D /* Pods-SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		B07079C7B6EF339BD62ADDA7 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		B388219062DFCFC9007F87B9 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		B4BFAA84CDDD7580259CC472 /* MJRefreshLegendHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.m; sourceTree = "<group>"; };
+		B5F5748DC45E208E512E2ED6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		B69B20A360691CD7B59A5CCF /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		BA1E714B22B24C4AD9ADE164 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		BA6FA53511D5327E486C71FE /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		BC6E20A3FEEC88D857A4EBDF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BEF44CBEF4D8E8FAC7BAA45E /* Pods-JSONKit-NoWarning-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONKit-NoWarning-prefix.pch"; sourceTree = "<group>"; };
+		BF0BC7728EC7FCEF9E12DD41 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BF135A88CBA35BD31D317FDE /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		C1BD1E2907EBA7FD0C91FE6A /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		C357868579F14C76A5A40699 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		C583675D9282723A23D5911F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C6953117E7E9AA1E27CBCFFF /* Pods-IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		C6A95CF73E36F35A2493C821 /* libPods-MJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BD19B7D9514A392502D181 /* Pods-JSONKit-NoWarning-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONKit-NoWarning-Private.xcconfig"; sourceTree = "<group>"; };
+		C82E3C0753293B11009F12BB /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		CA4F4A4391AD847F48842EF8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		CBF8C6B7CA2B5A78227C8F14 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		CC913DD9A7B7E6C79FA922AD /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		D13F506AC14CA677664025F0 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		D1A474E901247288F65F7DD6 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C8C6DEF10906356533526C /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		D216163155ADF9B8881A59C4 /* libPods-SDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BA86322450F1EAC6B57286 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		D355507C519FC6073F8E4EC9 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		D3DF3E6491293C3968C1FCCA /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		D93C11121A6AE3BB56561AA5 /* Pods-SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		DABCCFEC1E387EABB4BA14D2 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		DB58708D29478CDC2B04F878 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		DFA63E56A09E8E1E65222FEB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		E176C66D6B27C8F88A18D715 /* libPods-JSONKit-NoWarning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSONKit-NoWarning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24438C1684348257E273347 /* Pods-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		E2D041C4A40267F04B2B6E06 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		E5C1A5F56FDBBC7EE29DFD15 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyBoardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E7C65AA1E11F7CB8B888FED9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E9D3F017E9588CF259838644 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		ED71CC7651D0EEFA04413052 /* JSONKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		EE5256DCCC29E52BCCBAECDD /* MJRefreshGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.m; sourceTree = "<group>"; };
+		EE86509EEB6DFA2995E9C819 /* MJRefreshGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.h; sourceTree = "<group>"; };
+		EEA0FA60F783201EC0C436F0 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		F308E0EDFE3B0CED7413041B /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		F3517A624AE1D23B95192954 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F5A061B6577D80ED8B018964 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5D343DE8D0CABE70304ABE2 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F5F4B45FBEAA7400D1063D85 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F627F24296F5394396F702E5 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQSegmentedNextPrevious.m; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		F752FD2F13B52DA3501E2956 /* Pods-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMDB-dummy.m"; sourceTree = "<group>"; };
+		FB4F7481019F28A57A770E50 /* Pods-JSONKit-NoWarning.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONKit-NoWarning.xcconfig"; sourceTree = "<group>"; };
+		FE7975D008FF57BA17AE3274 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366D88763AD6E65225E58B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B975FCEFED32AD75D9EC40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2402E6D39A713EA990CEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082C4B5BA91338BF3A780470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92496ED32D51F78E24D386EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635B684624360D1603C74372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA910F7275F4C4E76ED3C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAFAB1124B38ED946E680D6 /* CoreGraphics.framework in Frameworks */,
+				49783102D9DA9F5FAD51CCD9 /* Foundation.framework in Frameworks */,
+				3CBD4430A7718F1D9A4583EC /* MobileCoreServices.framework in Frameworks */,
+				477DB6D477D514C756631539 /* Security.framework in Frameworks */,
+				C8F74DE93EF6B16C0316C4F5 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD9EAAB5F4B47A71B6A10BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA23F6F98505FB6D62092989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66E9C6F6FEF58057B983F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70802FD9DFCB723DB5834785 /* Foundation.framework in Frameworks */,
+				7AD56D5F3235B6C4E42B7C40 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8908937E11B578EB88689E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A01A3944E6AF1B36D2370F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ED610182F89C255DD9C08D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D66CBA15B146F6CFE93773 /* Pods-AFNetworking.xcconfig */,
+				10FB4A8DB4527CC199F81655 /* Pods-AFNetworking-Private.xcconfig */,
+				E24438C1684348257E273347 /* Pods-AFNetworking-dummy.m */,
+				AE08C74A5E91351CEA9CAFB4 /* Pods-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AFNetworking";
+			sourceTree = "<group>";
+		};
+		05B8CDEE1C52136DED79AFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52674897A5D316988A879349 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DAA29DE5762349FE2743F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A974B2356316A6D07E13B223 /* libPods.a */,
+				D1A474E901247288F65F7DD6 /* libPods-AFNetworking.a */,
+				AC752B81FAC0C2B482956032 /* libPods-FMDB.a */,
+				3FCCC5C7FBC883C6F1E1A5F1 /* libPods-IQKeyboardManager.a */,
+				E176C66D6B27C8F88A18D715 /* libPods-JSONKit-NoWarning.a */,
+				C6A95CF73E36F35A2493C821 /* libPods-MJRefresh.a */,
+				D216163155ADF9B8881A59C4 /* libPods-SDWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B2159B2E3E8FBD9F91956D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				00EC877B7FA18129226A08A6 /* AFNetworkActivityIndicatorManager.h */,
+				734E391154B12409CC1495FE /* AFNetworkActivityIndicatorManager.m */,
+				25A2EF43DA5230A9477BE3F3 /* UIActivityIndicatorView+AFNetworking.h */,
+				4F0FED0EE5089DC0A0911F29 /* UIActivityIndicatorView+AFNetworking.m */,
+				2B4E48E4550C5F4A2387D620 /* UIAlertView+AFNetworking.h */,
+				21DBA072AFCB06905627F5F9 /* UIAlertView+AFNetworking.m */,
+				2E105B086B290807452FEE07 /* UIButton+AFNetworking.h */,
+				32ABD37C1B1B889CC04B44B2 /* UIButton+AFNetworking.m */,
+				675177CCD03F7FCB0F212370 /* UIImageView+AFNetworking.h */,
+				8ACF05947965D4A8ABC1E865 /* UIImageView+AFNetworking.m */,
+				0E32150BDCAC55EFEEE36F81 /* UIKit+AFNetworking.h */,
+				B07079C7B6EF339BD62ADDA7 /* UIProgressView+AFNetworking.h */,
+				E9D3F017E9588CF259838644 /* UIProgressView+AFNetworking.m */,
+				8E65F0DFCED212FC7C06FC0F /* UIRefreshControl+AFNetworking.h */,
+				DFA63E56A09E8E1E65222FEB /* UIRefreshControl+AFNetworking.m */,
+				5E05BE77BE6CB105405B7AF7 /* UIWebView+AFNetworking.h */,
+				263072B89344EA0FD14537F0 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		135FA4BAEABD5A5750AB55AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB84DCCFA18641A7807E49 /* Pods-MJRefresh.xcconfig */,
+				82AF5093AA04318D1D9F5AEC /* Pods-MJRefresh-Private.xcconfig */,
+				4271A6A3E5883FDFC1EE72C1 /* Pods-MJRefresh-dummy.m */,
+				A623C8CB40AC86602914614B /* Pods-MJRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MJRefresh";
+			sourceTree = "<group>";
+		};
+		1B9E967BE45D268750A05B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5183E5B7AAF04CEDCB78B08 /* AFNetworking */,
+				8CAEB8CCC1A5B974455BAEAA /* FMDB */,
+				74E1018DE4A0C41DD92406C5 /* IQKeyboardManager */,
+				29653F354064E2FBBEEA5B92 /* JSONKit-NoWarning */,
+				B02B4A9FF925B9511FEFD81B /* MJRefresh */,
+				FA47CABA32F740415E9A005E /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20C1B5AA52C5374C4365FC39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5C1A5F56FDBBC7EE29DFD15 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		21F1799436D3BC44C2069D6C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BF135A88CBA35BD31D317FDE /* FMDB.h */,
+				36E874D97BFE03D2E4324930 /* FMDatabase.h */,
+				0B196B06F30DFAD592C31630 /* FMDatabase.m */,
+				62C8AB0C4FC02232F1EC8CF2 /* FMDatabaseAdditions.h */,
+				2DB98DAB0CEEDEB480EB3B1E /* FMDatabaseAdditions.m */,
+				0A9B69503F52AFA733FC5933 /* FMDatabasePool.h */,
+				6AFFEBFA6A9CE96DA140BB8C /* FMDatabasePool.m */,
+				788CB883EF82C9FC478F2859 /* FMDatabaseQueue.h */,
+				0636A4F58F9D271A1EFFFEAD /* FMDatabaseQueue.m */,
+				7316130A907EBF94521FEB65 /* FMResultSet.h */,
+				21C4C2B7B6E05468C1B19F5F /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		24151D469B59AD7E86DA4FAA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6C508B9854E9A2753DBBE6B7 /* NSData+ImageContentType.h */,
+				C82E3C0753293B11009F12BB /* NSData+ImageContentType.m */,
+				71AAF4BC5F0DA56B7B975825 /* SDImageCache.h */,
+				5EA9CAC3557EAB9BBA89826E /* SDImageCache.m */,
+				5E5788CF28F880967C32035C /* SDWebImageCompat.h */,
+				324691E1D8DDB0203C978FCA /* SDWebImageCompat.m */,
+				A98CDF9D27D1D589A6CCFD56 /* SDWebImageDecoder.h */,
+				195C983788EF98E6634F5841 /* SDWebImageDecoder.m */,
+				B69B20A360691CD7B59A5CCF /* SDWebImageDownloader.h */,
+				D2BA86322450F1EAC6B57286 /* SDWebImageDownloader.m */,
+				C357868579F14C76A5A40699 /* SDWebImageDownloaderOperation.h */,
+				4D994E00AC491AB800DC355F /* SDWebImageDownloaderOperation.m */,
+				DABCCFEC1E387EABB4BA14D2 /* SDWebImageManager.h */,
+				06147FCBF0D6C1E8CF1B4548 /* SDWebImageManager.m */,
+				38D9E67E16D9D801743A3BA4 /* SDWebImageOperation.h */,
+				CC913DD9A7B7E6C79FA922AD /* SDWebImagePrefetcher.h */,
+				409E78A95D6593AC949B7C48 /* SDWebImagePrefetcher.m */,
+				F3517A624AE1D23B95192954 /* UIButton+WebCache.h */,
+				BA6FA53511D5327E486C71FE /* UIButton+WebCache.m */,
+				B388219062DFCFC9007F87B9 /* UIImage+GIF.h */,
+				7C052E32AB0614A31D243122 /* UIImage+GIF.m */,
+				E2D041C4A40267F04B2B6E06 /* UIImage+MultiFormat.h */,
+				16B2A0FCC8818ACA3C6304D0 /* UIImage+MultiFormat.m */,
+				9845560CF88E31F06D91F0A0 /* UIImageView+HighlightedWebCache.h */,
+				A994E462CC9F07735E0FF2F5 /* UIImageView+HighlightedWebCache.m */,
+				F5D343DE8D0CABE70304ABE2 /* UIImageView+WebCache.h */,
+				594C15074DA78BC2C070BCD7 /* UIImageView+WebCache.m */,
+				CA4F4A4391AD847F48842EF8 /* UIView+WebCacheOperation.h */,
+				1E0E6A138F0FD51B7D0D6445 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		25D75C4EE4C65166772F7D2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60093E42D28F8EFB15D0FF88 /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2912603FDABB9EDAFB685EC1 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				8CFBFD5BEEEE9F4A7195F290 /* AFSecurityPolicy.h */,
+				A1DBF60D0944D0C8CE7EF97F /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		29653F354064E2FBBEEA5B92 /* JSONKit-NoWarning */ = {
+			isa = PBXGroup;
+			children = (
+				0C27708B15C9E6B12BCE618D /* JSONKit.h */,
+				ED71CC7651D0EEFA04413052 /* JSONKit.m */,
+				841BA3A98A5A331554C6C5B4 /* Support Files */,
+			);
+			path = "JSONKit-NoWarning";
+			sourceTree = "<group>";
+		};
+		3CAC5DD4CE5DF6AED421501A /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				AF18DDFCE81BFAEDA9EB0B5F /* AFURLRequestSerialization.h */,
+				2EFD0907854BD9A8F624836F /* AFURLRequestSerialization.m */,
+				BC6E20A3FEEC88D857A4EBDF /* AFURLResponseSerialization.h */,
+				2AFE5E1260D9801B6FD8A44A /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		4766DCE5DE514F4A3B7D3620 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				4E18D5DA953372AF6BEA010A /* AFHTTPRequestOperation.h */,
+				2B7A5C4221FB3EF1E3492009 /* AFHTTPRequestOperation.m */,
+				63CB859BF910DB2C6057C336 /* AFHTTPRequestOperationManager.h */,
+				D355507C519FC6073F8E4EC9 /* AFHTTPRequestOperationManager.m */,
+				54D3C92BB8697920CD53C24D /* AFURLConnectionOperation.h */,
+				2198188D8E6E6A065879EDD0 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		52674897A5D316988A879349 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47AC6A5B0CB9DB8D2CE19EDF /* CoreGraphics.framework */,
+				0785507A0EEC44409C467F39 /* Foundation.framework */,
+				1D57EF56DF2913EC5AF28F52 /* ImageIO.framework */,
+				84A8D01D5150D7D9F2691D67 /* MobileCoreServices.framework */,
+				420F5D4A2F01C935340309CB /* Security.framework */,
+				A650FB0F9C48CB399367A067 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F8EE45F65DDA95ACA7698A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				705E0377584E4329062C8D29 /* Pods-SDWebImage.xcconfig */,
+				AB62F66258F5F1B1D027E0AC /* Pods-SDWebImage-Private.xcconfig */,
+				AFDDEC420A72482DCF34847D /* Pods-SDWebImage-dummy.m */,
+				D93C11121A6AE3BB56561AA5 /* Pods-SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SDWebImage";
+			sourceTree = "<group>";
+		};
+		74E1018DE4A0C41DD92406C5 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				D13F506AC14CA677664025F0 /* IQBarButtonItem.h */,
+				CBF8C6B7CA2B5A78227C8F14 /* IQBarButtonItem.m */,
+				524B711F81801F2411B808BE /* IQKeyboardManager.h */,
+				8BD2EFFD8CAE7EFC975A2757 /* IQKeyboardManager.m */,
+				A9F6F9F5CBBB8801C6D59934 /* IQKeyboardManagerConstants.h */,
+				15318DF1BAC2734203C15ED5 /* IQKeyboardManagerConstantsInternal.h */,
+				1F9D207DE7D59FB6D026E259 /* IQKeyboardReturnKeyHandler.h */,
+				9EBF8E43F42435C5A4CE0A3C /* IQKeyboardReturnKeyHandler.m */,
+				DB58708D29478CDC2B04F878 /* IQNSArray+Sort.h */,
+				455635C150C05076563B1678 /* IQNSArray+Sort.m */,
+				0A4157F68E211F92F52FFBB2 /* IQSegmentedNextPrevious.h */,
+				F627F24296F5394396F702E5 /* IQSegmentedNextPrevious.m */,
+				67EC41C17E4E5E7E00A3178F /* IQTextView.h */,
+				0D4DDB7780B2C62BE2657D8E /* IQTextView.m */,
+				8A9494BC983B999DF7F7248D /* IQTitleBarButtonItem.h */,
+				145197C2D5470846C64AFBF2 /* IQTitleBarButtonItem.m */,
+				8BDBDF842371D3E4B164D512 /* IQToolbar.h */,
+				680E1C9EDE6F2AFE3E0A4CE2 /* IQToolbar.m */,
+				398954CC5571AE6A6C9E8459 /* IQUIView+Hierarchy.h */,
+				6145A55C00A7D7C82BBC342E /* IQUIView+Hierarchy.m */,
+				EEA0FA60F783201EC0C436F0 /* IQUIView+IQKeyboardToolbar.h */,
+				6E4CE016F8D6D52194009B71 /* IQUIView+IQKeyboardToolbar.m */,
+				31AA150F5A2798FFF2FE1A97 /* IQUIWindow+Hierarchy.h */,
+				0FF254FAB7AAF696D6AD01A2 /* IQUIWindow+Hierarchy.m */,
+				6C100C68C00A5B48CC3D8F5B /* KeyboardManager.h */,
+				20C1B5AA52C5374C4365FC39 /* Resources */,
+				AB7EF1A5664D98DFE7A29F69 /* Support Files */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		841BA3A98A5A331554C6C5B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F7481019F28A57A770E50 /* Pods-JSONKit-NoWarning.xcconfig */,
+				C7BD19B7D9514A392502D181 /* Pods-JSONKit-NoWarning-Private.xcconfig */,
+				987B0F2816F426EFBD5086B3 /* Pods-JSONKit-NoWarning-dummy.m */,
+				BEF44CBEF4D8E8FAC7BAA45E /* Pods-JSONKit-NoWarning-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JSONKit-NoWarning";
+			sourceTree = "<group>";
+		};
+		8CAEB8CCC1A5B974455BAEAA /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BF4672B0DCA5BA2B52529D39 /* Support Files */,
+				21F1799436D3BC44C2069D6C /* common */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A100D88A26E396509F7B4136 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				316E0D18A3FC6CAA559F5A80 /* AFHTTPSessionManager.h */,
+				C583675D9282723A23D5911F /* AFHTTPSessionManager.m */,
+				64F98A1C049691BB5BF87210 /* AFURLSessionManager.h */,
+				B5F5748DC45E208E512E2ED6 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		AB7EF1A5664D98DFE7A29F69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7F17F29EDB6D0F4CB465A4 /* Pods-IQKeyboardManager.xcconfig */,
+				220CD52D3AAE21BE3E918BC3 /* Pods-IQKeyboardManager-Private.xcconfig */,
+				C6953117E7E9AA1E27CBCFFF /* Pods-IQKeyboardManager-dummy.m */,
+				5FB44A8B7B13DDA45B4D0379 /* Pods-IQKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		B02B4A9FF925B9511FEFD81B /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				54581176B42BEAF77F04FC43 /* MJRefresh.h */,
+				4061EE8ECCD460CEB1E336AB /* MJRefreshComponent.h */,
+				9B01E1B4A0230A7B330C50FD /* MJRefreshComponent.m */,
+				903A520BA03C9466727C8C10 /* MJRefreshConst.h */,
+				7CCDBB9493BE889CC254340F /* MJRefreshConst.m */,
+				A6F8AA17FDAC7559175BD393 /* MJRefreshFooter.h */,
+				A929650EB39C66F80D3F2268 /* MJRefreshFooter.m */,
+				EE86509EEB6DFA2995E9C819 /* MJRefreshGifFooter.h */,
+				EE5256DCCC29E52BCCBAECDD /* MJRefreshGifFooter.m */,
+				3A17FD11D610FD553AA79F99 /* MJRefreshGifHeader.h */,
+				C1BD1E2907EBA7FD0C91FE6A /* MJRefreshGifHeader.m */,
+				6A3447A8C870C5850E4F123B /* MJRefreshHeader.h */,
+				7E383D6BCEBAB1C376AC2ED8 /* MJRefreshHeader.m */,
+				98D6D9A5CF2E8983A0C09DA8 /* MJRefreshLegendFooter.h */,
+				72224BD9D0FE45462DD70711 /* MJRefreshLegendFooter.m */,
+				124E1569E0FAB1DACFADCFAE /* MJRefreshLegendHeader.h */,
+				B4BFAA84CDDD7580259CC472 /* MJRefreshLegendHeader.m */,
+				9AA543D2893C74B293E2FC98 /* UIScrollView+MJExtension.h */,
+				D1C8C6DEF10906356533526C /* UIScrollView+MJExtension.m */,
+				D3DF3E6491293C3968C1FCCA /* UIScrollView+MJRefresh.h */,
+				F308E0EDFE3B0CED7413041B /* UIScrollView+MJRefresh.m */,
+				6BAAEADDFC39F88A6EC93F46 /* UIView+MJExtension.h */,
+				BA1E714B22B24C4AD9ADE164 /* UIView+MJExtension.m */,
+				25D75C4EE4C65166772F7D2E /* Resources */,
+				135FA4BAEABD5A5750AB55AB /* Support Files */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		BF4672B0DCA5BA2B52529D39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F90205011790354B251D956 /* Pods-FMDB.xcconfig */,
+				80F9C93BC2034CF2E43EC6D6 /* Pods-FMDB-Private.xcconfig */,
+				F752FD2F13B52DA3501E2956 /* Pods-FMDB-dummy.m */,
+				5CCA4685B051612D450B7BCD /* Pods-FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FMDB";
+			sourceTree = "<group>";
+		};
+		DF788C8176C7B4BB3393985E = {
+			isa = PBXGroup;
+			children = (
+				97F2EAB689E50F264674AF3F /* Podfile */,
+				05B8CDEE1C52136DED79AFDE /* Frameworks */,
+				1B9E967BE45D268750A05B0B /* Pods */,
+				0DAA29DE5762349FE2743F18 /* Products */,
+				E588DA4850B8404CBD2A278D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E588DA4850B8404CBD2A278D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7986A95A7BBC4D1120BD0CB /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E76B47CEDBF5E177C1EA4700 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F5F4B45FBEAA7400D1063D85 /* AFNetworkReachabilityManager.h */,
+				E7C65AA1E11F7CB8B888FED9 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F5183E5B7AAF04CEDCB78B08 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7AF239FED4534980A4BD02BD /* AFNetworking.h */,
+				4766DCE5DE514F4A3B7D3620 /* NSURLConnection */,
+				A100D88A26E396509F7B4136 /* NSURLSession */,
+				E76B47CEDBF5E177C1EA4700 /* Reachability */,
+				2912603FDABB9EDAFB685EC1 /* Security */,
+				3CAC5DD4CE5DF6AED421501A /* Serialization */,
+				03ED610182F89C255DD9C08D /* Support Files */,
+				10B2159B2E3E8FBD9F91956D /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F7986A95A7BBC4D1120BD0CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE7975D008FF57BA17AE3274 /* Pods-acknowledgements.markdown */,
+				F5A061B6577D80ED8B018964 /* Pods-acknowledgements.plist */,
+				3224AAD9A368D7ED4A8302F1 /* Pods-dummy.m */,
+				7DF7BF1BB938436E6770ED96 /* Pods-environment.h */,
+				BF0BC7728EC7FCEF9E12DD41 /* Pods-resources.sh */,
+				38052A26AAB2D1EC38653D3D /* Pods.debug.xcconfig */,
+				1D446E15E18E0EF1F5F5748D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		FA47CABA32F740415E9A005E /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				24151D469B59AD7E86DA4FAA /* Core */,
+				6F8EE45F65DDA95ACA7698A1 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		645B8B000ED35AD0B29B15DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F319E6B13F67BFA337F41B67 /* MJRefresh.h in Headers */,
+				0250985701853839816196F3 /* MJRefreshComponent.h in Headers */,
+				B489C1024BCD7EF95328366C /* MJRefreshConst.h in Headers */,
+				44C4B27121A5C6B2BB2A1876 /* MJRefreshFooter.h in Headers */,
+				9CFCCB5E1AF21F98ACBE355A /* MJRefreshGifFooter.h in Headers */,
+				DAAFC7F746D565C67F7750D1 /* MJRefreshGifHeader.h in Headers */,
+				669DCEF259DF34E3D19255FB /* MJRefreshHeader.h in Headers */,
+				C13B365DEF1A4014C937EA5D /* MJRefreshLegendFooter.h in Headers */,
+				6F405D99F8DA50AE11533832 /* MJRefreshLegendHeader.h in Headers */,
+				5CBAE14CD5B202B077340C36 /* UIScrollView+MJExtension.h in Headers */,
+				8F1E342B3FB413688E5B6650 /* UIScrollView+MJRefresh.h in Headers */,
+				E458518FEDD69D428E4ED452 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96AA75E364E01F6238496543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CA12C18D0E24040614E49E /* FMDB.h in Headers */,
+				D3DE1325126A2B33E3963736 /* FMDatabase.h in Headers */,
+				28268463691ED2C57E1C380F /* FMDatabaseAdditions.h in Headers */,
+				95B0E39D18AAF03C0399B6C1 /* FMDatabasePool.h in Headers */,
+				09112DD6BAED24B1A6A77EFA /* FMDatabaseQueue.h in Headers */,
+				CDF27F5E10EE81C488A88DCB /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBCF6F25B6933D1B7F1A27E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BD8282F3C561BB1FC72B36 /* AFHTTPRequestOperation.h in Headers */,
+				33B1F67790F98E7B4A233611 /* AFHTTPRequestOperationManager.h in Headers */,
+				AD387E93A4F533994AFDB3CE /* AFHTTPSessionManager.h in Headers */,
+				DF563541556939B323190972 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				460A00FF522D461ACF87BD07 /* AFNetworkReachabilityManager.h in Headers */,
+				8816F6C1401E88E0B87977BC /* AFNetworking.h in Headers */,
+				4E3C69D5C3506A923D05AC97 /* AFSecurityPolicy.h in Headers */,
+				6460069070A5339BE12D058F /* AFURLConnectionOperation.h in Headers */,
+				18FFFDCD61C5E99CEABE4CD6 /* AFURLRequestSerialization.h in Headers */,
+				6E683D329D3AA256C0E154EE /* AFURLResponseSerialization.h in Headers */,
+				8E1E0A5EED15EDAF0E56AAEF /* AFURLSessionManager.h in Headers */,
+				455B9CC74ACCF7E18CC0A030 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				A9EDC986C7023564249DF1BE /* UIAlertView+AFNetworking.h in Headers */,
+				716B62FA23C9746567A3C5D1 /* UIButton+AFNetworking.h in Headers */,
+				BFDEEECBFEE51AD05F8CC295 /* UIImageView+AFNetworking.h in Headers */,
+				03B51FA39B77B2CB3623BE99 /* UIKit+AFNetworking.h in Headers */,
+				AB378B8544237FFBFC9E94E2 /* UIProgressView+AFNetworking.h in Headers */,
+				41889939DD474AA781D03B2C /* UIRefreshControl+AFNetworking.h in Headers */,
+				8FC2799262EA865902F1D3AE /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A1794118D68C8E90A0E0C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F840B26F0D9007DF033D7C55 /* NSData+ImageContentType.h in Headers */,
+				99EE466E74A2F46B27DBB014 /* SDImageCache.h in Headers */,
+				0FE3EF7C5F4C0939D0BCCBEE /* SDWebImageCompat.h in Headers */,
+				E76107EA1C2A60266C14F0C3 /* SDWebImageDecoder.h in Headers */,
+				09A315B1D048DA2EC282C4A9 /* SDWebImageDownloader.h in Headers */,
+				54FCBA3F125A3ADF98565FD9 /* SDWebImageDownloaderOperation.h in Headers */,
+				9E09A37069F028326B986B94 /* SDWebImageManager.h in Headers */,
+				12431D08F304A2CE9F923CAF /* SDWebImageOperation.h in Headers */,
+				E6D7D33008B5127FD83F8A1D /* SDWebImagePrefetcher.h in Headers */,
+				2A2C8EDB86160B3F36E5F50A /* UIButton+WebCache.h in Headers */,
+				0316752D09C341E9718DD062 /* UIImage+GIF.h in Headers */,
+				9DF3642A1F9A891B918D48A4 /* UIImage+MultiFormat.h in Headers */,
+				33A03D9A8681CAF33AB7C942 /* UIImageView+HighlightedWebCache.h in Headers */,
+				20C254BE01E742DEE06019EA /* UIImageView+WebCache.h in Headers */,
+				0CEABA52F0323CE592E288D1 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC83A771BC324F9330CD453F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3892959F25F4CE80B07676A /* JSONKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF42C299DA13D3624AF616F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EC29294E33DCCDC537D4BA /* IQBarButtonItem.h in Headers */,
+				B39D80C8C51BE83030C67177 /* IQKeyboardManager.h in Headers */,
+				6D868F72CD7CBD4BD8827A06 /* IQKeyboardManagerConstants.h in Headers */,
+				EDAC032F20A5C927E5C4C043 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				B8040B227FFAF033D6861D66 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				0B64A63968C53E1AE7A2A833 /* IQNSArray+Sort.h in Headers */,
+				E44335019E1A664DAA05B1C5 /* IQSegmentedNextPrevious.h in Headers */,
+				9E12C3A793AABC0BE45CAF68 /* IQTextView.h in Headers */,
+				A97A296F070F8E7E4D8A6BA0 /* IQTitleBarButtonItem.h in Headers */,
+				37AF74E6E7007B53349FA143 /* IQToolbar.h in Headers */,
+				513C768B54CC451BBD5F5FB7 /* IQUIView+Hierarchy.h in Headers */,
+				FC3565578BEDD8B7DFB91475 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				64DB5F45301352A163ACEB0F /* IQUIWindow+Hierarchy.h in Headers */,
+				2D32C8E15CCFD246C3A0B407 /* KeyboardManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13DC7E75EF596FE7DD6AB166 /* Pods-MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441BA0140600792BF5E6B717 /* Build configuration list for PBXNativeTarget "Pods-MJRefresh" */;
+			buildPhases = (
+				B8FBEFCF4167AFD43B70622C /* Sources */,
+				DDD9EAAB5F4B47A71B6A10BE /* Frameworks */,
+				645B8B000ED35AD0B29B15DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MJRefresh";
+			productName = "Pods-MJRefresh";
+			productReference = C6A95CF73E36F35A2493C821 /* libPods-MJRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		482E1C3AFB19C322EFBC9ECB /* Pods-IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5958BC1B0AA5B69E87DDF75 /* Build configuration list for PBXNativeTarget "Pods-IQKeyboardManager" */;
+			buildPhases = (
+				F9564E71C4E5375BD3229A11 /* Sources */,
+				366D88763AD6E65225E58B94 /* Frameworks */,
+				EF42C299DA13D3624AF616F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IQKeyboardManager";
+			productName = "Pods-IQKeyboardManager";
+			productReference = 3FCCC5C7FBC883C6F1E1A5F1 /* libPods-IQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		572AEFA38668FB7A86540644 /* Pods-FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDED5DA1401F7EB0A26EE22 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */;
+			buildPhases = (
+				C043901DBC9CB35379B7A93F /* Sources */,
+				92496ED32D51F78E24D386EA /* Frameworks */,
+				96AA75E364E01F6238496543 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FMDB";
+			productName = "Pods-FMDB";
+			productReference = AC752B81FAC0C2B482956032 /* libPods-FMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8621EA603DA43EDF7919DC9B /* Pods-SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A2B090C34700C550C5CFB4 /* Build configuration list for PBXNativeTarget "Pods-SDWebImage" */;
+			buildPhases = (
+				9A40726A9332927CEA48E79F /* Sources */,
+				E66E9C6F6FEF58057B983F07 /* Frameworks */,
+				C8A1794118D68C8E90A0E0C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SDWebImage";
+			productName = "Pods-SDWebImage";
+			productReference = D216163155ADF9B8881A59C4 /* libPods-SDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8FF72647FD52A9385A6065CA /* Pods-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBEFC4A601579F40F5C091E /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */;
+			buildPhases = (
+				B9E1F0FA91BF8626E24D96EB /* Sources */,
+				CAA910F7275F4C4E76ED3C5D /* Frameworks */,
+				ADBCF6F25B6933D1B7F1A27E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFNetworking";
+			productName = "Pods-AFNetworking";
+			productReference = D1A474E901247288F65F7DD6 /* libPods-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFB291F8D661586A51677F1D /* Pods-JSONKit-NoWarning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AA027B36FDC2E310E56ED4 /* Build configuration list for PBXNativeTarget "Pods-JSONKit-NoWarning" */;
+			buildPhases = (
+				8153E951CE4DA395647B0664 /* Sources */,
+				8A2402E6D39A713EA990CEBC /* Frameworks */,
+				DC83A771BC324F9330CD453F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSONKit-NoWarning";
+			productName = "Pods-JSONKit-NoWarning";
+			productReference = E176C66D6B27C8F88A18D715 /* libPods-JSONKit-NoWarning.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F707EC98766686D6DB5398FA /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B30C3556FC699BAEDC39E5 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				275E50AD73A6D8901F8B9CBE /* Sources */,
+				F8908937E11B578EB88689E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A979762C5A8BCB9A727506 /* PBXTargetDependency */,
+				5C0FA86547F1F79BFD610967 /* PBXTargetDependency */,
+				F20E4CBC520E1E11401A399B /* PBXTargetDependency */,
+				CD19F745B8A6733D9F4A9972 /* PBXTargetDependency */,
+				011EC9F86585329BE3CFCAF1 /* PBXTargetDependency */,
+				7985D3EEBC2F7D579869ABDE /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A974B2356316A6D07E13B223 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1E695B570E7231F2906377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 42DEC146F830B57F49689B2F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF788C8176C7B4BB3393985E;
+			productRefGroup = 0DAA29DE5762349FE2743F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F707EC98766686D6DB5398FA /* Pods */,
+				8FF72647FD52A9385A6065CA /* Pods-AFNetworking */,
+				572AEFA38668FB7A86540644 /* Pods-FMDB */,
+				482E1C3AFB19C322EFBC9ECB /* Pods-IQKeyboardManager */,
+				EFB291F8D661586A51677F1D /* Pods-JSONKit-NoWarning */,
+				13DC7E75EF596FE7DD6AB166 /* Pods-MJRefresh */,
+				8621EA603DA43EDF7919DC9B /* Pods-SDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275E50AD73A6D8901F8B9CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51ABC9661BF9455A3299AEFB /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8153E951CE4DA395647B0664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4817C0453F146713E0D039DB /* JSONKit.m in Sources */,
+				5F0010D95636921B45F53B55 /* Pods-JSONKit-NoWarning-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A40726A9332927CEA48E79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F220119EB6581A033B4D79 /* NSData+ImageContentType.m in Sources */,
+				3586832709B74D9D5BB16207 /* Pods-SDWebImage-dummy.m in Sources */,
+				E9E6BB1C20F9CD3BF376F05A /* SDImageCache.m in Sources */,
+				480D8684B6E6A4DC625DCAD7 /* SDWebImageCompat.m in Sources */,
+				D0362B1EF1DDB1E85C344A48 /* SDWebImageDecoder.m in Sources */,
+				B34C65B35E2F5BCD4F5368D9 /* SDWebImageDownloader.m in Sources */,
+				2E706AB0A4698D35BE509B92 /* SDWebImageDownloaderOperation.m in Sources */,
+				84091B15D5CD98EB52DFA2BC /* SDWebImageManager.m in Sources */,
+				22FF50D91D51291108D49DD6 /* SDWebImagePrefetcher.m in Sources */,
+				982D5F8AAFB8FEE222311CC7 /* UIButton+WebCache.m in Sources */,
+				4B79C4021E73E9BA8428F140 /* UIImage+GIF.m in Sources */,
+				BE69EEB947F734D632977FE8 /* UIImage+MultiFormat.m in Sources */,
+				524F467E86C4071E2A1A58D8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				4E24A9443F71586EDA686ACB /* UIImageView+WebCache.m in Sources */,
+				1211486C9A51311CB618A1C5 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FBEFCF4167AFD43B70622C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD66A089E3F2CB2DB6BD99F1 /* MJRefreshComponent.m in Sources */,
+				77EE5463F5A9A422CBB09852 /* MJRefreshConst.m in Sources */,
+				241A9B348F8A7C92D8AE3795 /* MJRefreshFooter.m in Sources */,
+				3B18B97F06E43D1F37CB0A4D /* MJRefreshGifFooter.m in Sources */,
+				BDD889EACB1290AD104F47E3 /* MJRefreshGifHeader.m in Sources */,
+				947A37E0BA4577A699733622 /* MJRefreshHeader.m in Sources */,
+				0531234AFB7D8CE9536E66BD /* MJRefreshLegendFooter.m in Sources */,
+				BEF5AA94F576166210C38B0C /* MJRefreshLegendHeader.m in Sources */,
+				AD09778C8EEC95FA6E9AC841 /* Pods-MJRefresh-dummy.m in Sources */,
+				224A2E9D0D0C30A5957E0E16 /* UIScrollView+MJExtension.m in Sources */,
+				CC513EC0DBEA6EBF32B027EA /* UIScrollView+MJRefresh.m in Sources */,
+				0958EA2A0580244F58D3F2A6 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1F0FA91BF8626E24D96EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B059EC3A0C66EFAD0767C562 /* AFHTTPRequestOperation.m in Sources */,
+				BC37868D8EA79C5365F5D220 /* AFHTTPRequestOperationManager.m in Sources */,
+				86BECBD46FFF4FF47B31F063 /* AFHTTPSessionManager.m in Sources */,
+				8414085B0169E918DD045E85 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				94F8D95E0D6CFA266DFD76D2 /* AFNetworkReachabilityManager.m in Sources */,
+				D2669828409A18D6C89A462C /* AFSecurityPolicy.m in Sources */,
+				D126B9000D50ADFB3F5F4EFB /* AFURLConnectionOperation.m in Sources */,
+				71B840951FA92EADCBE4588C /* AFURLRequestSerialization.m in Sources */,
+				99D1ABCCD2E75C3E9FCC9282 /* AFURLResponseSerialization.m in Sources */,
+				8890BF16CA3648C546A54650 /* AFURLSessionManager.m in Sources */,
+				8374F05189E1DFE1396B85CE /* Pods-AFNetworking-dummy.m in Sources */,
+				DB4D8BA51A12F4B1562AA1B2 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				A36E271B1890EC772B3F5D38 /* UIAlertView+AFNetworking.m in Sources */,
+				857D9421FB5B0EDDAB19E199 /* UIButton+AFNetworking.m in Sources */,
+				DADAEED0543CF262780D740D /* UIImageView+AFNetworking.m in Sources */,
+				13AA15597FBC7FE4A694576E /* UIProgressView+AFNetworking.m in Sources */,
+				C2FE0F257310771827785DEB /* UIRefreshControl+AFNetworking.m in Sources */,
+				BAE25CD843CD2A0D585E2E09 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043901DBC9CB35379B7A93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFFD40AACC2731B30DC1034 /* FMDatabase.m in Sources */,
+				821396140673DFBC205E22DB /* FMDatabaseAdditions.m in Sources */,
+				24204BBD099160D7E0483B1F /* FMDatabasePool.m in Sources */,
+				537C91F181253A1FA870F2ED /* FMDatabaseQueue.m in Sources */,
+				F443D4807AB1A7F71D56D438 /* FMResultSet.m in Sources */,
+				9132664612A11EC6BF5619BC /* Pods-FMDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9564E71C4E5375BD3229A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93338A65C2DA2518C4C67B89 /* IQBarButtonItem.m in Sources */,
+				E792119BBF61FE4F90A34DB7 /* IQKeyboardManager.m in Sources */,
+				A8F2C33467AF358837E3762A /* IQKeyboardReturnKeyHandler.m in Sources */,
+				E1FFF0A3398F30EB8E38B8F9 /* IQNSArray+Sort.m in Sources */,
+				4D4E8B64EF00003E90F9D510 /* IQSegmentedNextPrevious.m in Sources */,
+				7A48F36D1723B30AA077E419 /* IQTextView.m in Sources */,
+				F273FD8F5EED64E5A48DE7AD /* IQTitleBarButtonItem.m in Sources */,
+				8A531089F9950898AF5972E1 /* IQToolbar.m in Sources */,
+				220E14FEB3EABDDDCDA6B217 /* IQUIView+Hierarchy.m in Sources */,
+				4F9057DC132F1E596384969B /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				174D49E73D0528ACA2532402 /* IQUIWindow+Hierarchy.m in Sources */,
+				3A94520939C57591DA3CEB5D /* Pods-IQKeyboardManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011EC9F86585329BE3CFCAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MJRefresh";
+			target = 13DC7E75EF596FE7DD6AB166 /* Pods-MJRefresh */;
+			targetProxy = FB34C2D88CD6EFFD93D59E24 /* PBXContainerItemProxy */;
+		};
+		5C0FA86547F1F79BFD610967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FMDB";
+			target = 572AEFA38668FB7A86540644 /* Pods-FMDB */;
+			targetProxy = C4E05FCB5C9AD07E83D54DD4 /* PBXContainerItemProxy */;
+		};
+		7985D3EEBC2F7D579869ABDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SDWebImage";
+			target = 8621EA603DA43EDF7919DC9B /* Pods-SDWebImage */;
+			targetProxy = F1956A74B4ED768D197F7E9D /* PBXContainerItemProxy */;
+		};
+		CD19F745B8A6733D9F4A9972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONKit-NoWarning";
+			target = EFB291F8D661586A51677F1D /* Pods-JSONKit-NoWarning */;
+			targetProxy = 2690EDB1E590C7CAB18C91A2 /* PBXContainerItemProxy */;
+		};
+		F20E4CBC520E1E11401A399B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IQKeyboardManager";
+			target = 482E1C3AFB19C322EFBC9ECB /* Pods-IQKeyboardManager */;
+			targetProxy = F14D8E3608012E3ECFCF99C9 /* PBXContainerItemProxy */;
+		};
+		F2A979762C5A8BCB9A727506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFNetworking";
+			target = 8FF72647FD52A9385A6065CA /* Pods-AFNetworking */;
+			targetProxy = 33644C51C953694A4E69D364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B2B14120E78AEC0D884EEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D446E15E18E0EF1F5F5748D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		204C50DF984FA815FE0CE82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274D8AB3909E8EE603442CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB62F66258F5F1B1D027E0AC /* Pods-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SDWebImage/Pods-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		323BD547F0340599BEE499EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BD19B7D9514A392502D181 /* Pods-JSONKit-NoWarning-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONKit-NoWarning/Pods-JSONKit-NoWarning-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34727BC4ABD926DCBE75670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53D1538F47A1CD4742D66854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AF5093AA04318D1D9F5AEC /* Pods-MJRefresh-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MJRefresh/Pods-MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F96E8A56C01C706EA685C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220CD52D3AAE21BE3E918BC3 /* Pods-IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6203290DB220A3D95F1DA37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FB4A8DB4527CC199F81655 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7473B99CA7767F5019571886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F9C93BC2034CF2E43EC6D6 /* Pods-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B0E5F23F353EC35577B0280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FB4A8DB4527CC199F81655 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B22F268BED6D45401EC1F337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220CD52D3AAE21BE3E918BC3 /* Pods-IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8E8F5B0D906CA8C3D6319FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB62F66258F5F1B1D027E0AC /* Pods-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SDWebImage/Pods-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D439DEDD454207DB5CC13532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AF5093AA04318D1D9F5AEC /* Pods-MJRefresh-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MJRefresh/Pods-MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D6A786651C5057AEB332160C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BD19B7D9514A392502D181 /* Pods-JSONKit-NoWarning-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONKit-NoWarning/Pods-JSONKit-NoWarning-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0DA23509995DA6DD8E1264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F9C93BC2034CF2E43EC6D6 /* Pods-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0F52FAB9678A180AF9424D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38052A26AAB2D1EC38653D3D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DEC146F830B57F49689B2F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34727BC4ABD926DCBE75670D /* Debug */,
+				204C50DF984FA815FE0CE82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441BA0140600792BF5E6B717 /* Build configuration list for PBXNativeTarget "Pods-MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D1538F47A1CD4742D66854 /* Debug */,
+				D439DEDD454207DB5CC13532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDED5DA1401F7EB0A26EE22 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7473B99CA7767F5019571886 /* Debug */,
+				E0DA23509995DA6DD8E1264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AA027B36FDC2E310E56ED4 /* Build configuration list for PBXNativeTarget "Pods-JSONKit-NoWarning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323BD547F0340599BEE499EA /* Debug */,
+				D6A786651C5057AEB332160C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5958BC1B0AA5B69E87DDF75 /* Build configuration list for PBXNativeTarget "Pods-IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22F268BED6D45401EC1F337 /* Debug */,
+				5F96E8A56C01C706EA685C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B30C3556FC699BAEDC39E5 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F52FAB9678A180AF9424D1 /* Debug */,
+				1B2B14120E78AEC0D884EEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBEFC4A601579F40F5C091E /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0E5F23F353EC35577B0280 /* Debug */,
+				6203290DB220A3D95F1DA37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A2B090C34700C550C5CFB4 /* Build configuration list for PBXNativeTarget "Pods-SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274D8AB3909E8EE603442CB4 /* Debug */,
+				B8E8F5B0D906CA8C3D6319FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1E695B570E7231F2906377 /* Project object */;
+}

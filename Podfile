@@ -1,0 +1,6 @@
+pod "AFNetworking"
+pod "FMDB"
+pod "MJRefresh"
+pod "SDWebImage"
+pod "JSONKit-NoWarning"
+pod "IQKeyboardManager"
